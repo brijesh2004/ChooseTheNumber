@@ -1,0 +1,58 @@
+.container{
+    position: absolute;
+    justify-content: center;
+    left: 25%;
+     width: 500px;
+     height: 500px;
+    border: 10px solid black;
+}
+.ball1{
+    position: absolute;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 50%;
+   top: 86%;
+   font-size: 30px;
+   transition: 1s;
+   /* animation: UpDownMove 5s linear infinite; */
+}
+
+@keyframes UpDownMove {
+    0%{
+        top: 86%;
+    }
+    25%{
+        top: 75%;
+    }
+    50%{
+        top: 60%;
+    }
+    75%{
+        top: 50%;
+    }
+    100%{
+        top: 86%;
+    }
+}
+
+.winTheGame{
+    position: absolute;
+    left: 25%;
+    justify-content: center;
+    border: 10px solid black;
+    display: none;
+}
+.lossTheGame{
+    position: absolute;
+    left: 25%;
+    justify-content: center;
+    border: 10px solid black;
+    display: none;
+}
+.h2{
+    text-align: center;
+}
+

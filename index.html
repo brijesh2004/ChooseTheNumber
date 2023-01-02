@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Choose The Number Game</title>
+</head>
+<body>
+
+    <div class="container">
+      <h2 class="h2">Click On the Greatest Number </h2>
+      <h1 class="h2" ><span id="sec">15 </span> s</h1>
+      <div class="ball1" id="balls1" onclick="popTheBallone()">6</div>
+      <div class="ball1" style="top:86%; left:14%;" onclick="popTheBallone()">3</div>
+      <div class="ball1" style="top:86%; left:28%;" onclick="popTheBallone()">2</div>
+      <div class="ball1" style="top:86%; left:42%;" onclick="popTheBallone()">7</div>
+      <div class="ball1" style="top:86%; left:56%;" onclick="popTheBallone()">4</div>
+      <div class="ball1" style="top:86%; left:70%;" onclick="popTheBallone()">1</div>
+      <div class="ball1" style="top:86%; left:84%;" onclick="popTheBallone()">5</div>
+
+      <div class="ball1" style="top:74%; left:7%;" onclick="popTheBallone()">8</div>
+      <div class="ball1" style="top:74%; left:21%;" onclick="popTheBallone()">12</div>
+      <div class="ball1" style="top:74%; left:35%;" onclick="popTheBallone()">11</div>
+      <div class="ball1" style="top:74%; left:49%;" onclick="popTheBallone()">9</div>
+      <div class="ball1" style="top:74%; left:63%;" onclick="popTheBallone()">13</div>
+      <div class="ball1" style="top:74%; left:77%;" onclick="popTheBallone()">10</div>
+    </div>
+
+
+    <div class="winTheGame">
+      <h1> Wow You Win The Game Awesome</h1>
+      <h2 class="h2">❤️❤️❤️❤️❤️❤️❤️❤️</h2>
+      <input type="button" value="Play Again" onClick="window.location.reload();">
+      <a href="level2.html"><button> Next Level</button></a>
+    </div>
+    <div class="lossTheGame">
+      <h1> You Loss the game </h1>
+      <h2 class="h2">try Again</h2>
+      <input type="button" value="Play Again" onClick="window.location.reload();">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
